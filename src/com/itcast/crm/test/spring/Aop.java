@@ -9,8 +9,4 @@ public class Aop {
 	public void after(){
 		System.out.println("方法执行后");
 	}
-	
-	public void after1(){
-		System.out.println("方法执行后");
-	}
 }
