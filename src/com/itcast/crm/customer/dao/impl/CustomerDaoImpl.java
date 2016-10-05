@@ -37,5 +37,16 @@ public class CustomerDaoImpl implements CustomerDao {
 			throw new RuntimeException(e);
 		}
 	}
-
+	/**
+	 * 保存用户
+	 */
+	public void save2(Customer customer) {
+		try {
+			Session session = factory.getCurrentSession();
+			System.out.println("保存方法正在执行");
+			session.save(customer);
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+	}
 }
