@@ -3,7 +3,7 @@ package com.itcast.crm.customer.service.impl;
 import com.itcast.crm.customer.dao.CustomerDao;
 import com.itcast.crm.customer.domain.Customer;
 import com.itcast.crm.customer.service.CustomerService;
-
+//implements CustomerService
 public class CustomerServiceImpl implements CustomerService {
 	
 	private CustomerDao dao;
