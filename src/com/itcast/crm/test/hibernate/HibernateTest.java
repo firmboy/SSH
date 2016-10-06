@@ -14,7 +14,7 @@ public class HibernateTest {
 			//创建一个service，保存一个客户
 			Customer customer = new Customer();
 			customer.setCust_name("小泽");
-			CustomerService service = new CustomerServiceImpl();
+			CustomerServiceImpl service = new CustomerServiceImpl();
 			service.save(customer);
 			
 			
